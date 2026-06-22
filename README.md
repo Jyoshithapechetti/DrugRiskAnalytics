@@ -1,53 +1,83 @@
-Title: Uncovering the Hidden Risk A Data Analytics Framework for Patient-Reported Drug Reactions
+# Uncovering the Hidden Risk
 
-Project Summary
-This project performs end-to-end analytics on real-world drug review data, integrating Exploratory Data Analysis (EDA), NLP-based feature engineering, severity extraction, side-effect co-occurrence analysis, drug similarity modeling, and machine-learning–based sentiment and rating prediction.
+A comprehensive data analytics framework for mining **patient-reported drug reviews** to identify adverse drug reactions, analyze side-effect patterns, predict sentiment and ratings, and provide actionable insights for healthcare stakeholders. The system combines **Natural Language Processing (NLP)**, **machine learning**, and **interactive visualization** to uncover hidden risks associated with medications.
 
-The goal of the project is to:
-⦁	Understand patient experiences with different drugs
-⦁	Identify common side effects and their severities
-⦁	Analyse similarity relationships between drugs
-⦁	Build predictive models to classify sentiment and predict user-assigned ratings
-⦁	Provide decision-support insights for healthcare stakeholders, researchers, and pharmaceutical companies
+---
 
-The system is deployed through an interactive Streamlit dashboard and includes an integrated ML prediction module for real-time review analysis.
+## Features
 
-Key Features
-⦁	Data cleaning, preprocessing, and review normalization
-⦁	Token and character length analytics
-⦁	Side-effect extraction using a medical dictionary and phrase-based patterns
-⦁	Severity detection using medical keywords, multiword patterns, and negation handling
-⦁	Side-effect co-occurrence analysis using PMI and Jaccard similarity
-⦁	Drug–drug similarity analysis using cosine similarity on normalized side-effect frequencies
-⦁	Risk-level classification for each drug
-⦁	Machine Learning module for:
-	Sentiment classification (Positive vs Negative)
-	Rating prediction (1 to 10 scale)
-⦁	Interactive Streamlit dashboard with multiple analytical views
-⦁	Predictive box for entering any new review text
+* **Drug Review Analytics** using real-world patient feedback.
+* **Side-Effect Extraction** through medical dictionaries and phrase-based pattern matching.
+* **Severity Detection** using medical keywords, multiword patterns, and negation handling.
+* **Side-Effect Co-occurrence Analysis** using PMI and Jaccard similarity metrics.
+* **Drug Similarity Modeling** based on normalized side-effect frequency profiles.
+* **Risk-Level Classification** for individual drugs.
+* **Sentiment Classification** (Positive vs Negative) using machine learning.
+* **Rating Prediction** (1–10 scale) based on review content.
+* **Interactive Streamlit Dashboard** with multiple analytical views and visualizations.
+* **Real-Time Review Analysis** through an integrated prediction module.
 
-Technology Stack
-⦁	Python
-⦁	Streamlit
-⦁	Pandas
-⦁	Scikit-learn
-⦁	Matplotlib
-⦁	VADER Sentiment
-⦁	NumPy
-⦁	TF-IDF NLP pipelines
-⦁	Logistic Regression, Ridge Regression
-⦁	Co-occurrence and similarity algorithms (PMI, Jaccard, Cosine)
+---
 
-How to Run
-1.	Install dependencies
-2.	Place dataset files (drugsComTrain_raw.csv, drugsComTest_raw.csv) inside data/
-3.	Run the Streamlit app
-command to run: streamlit run app.py
+## Tech Stack
 
-Additional Resources
-⦁	Scikit-learn Documentation
-⦁	Streamlit API Docs
-⦁	NLP TF-IDF Feature Extraction Guides
-⦁	Research papers on adverse-event mining and pharmacovigilance
+* **Programming Language**: Python
+* **Frontend & Dashboard**: Streamlit
+* **Data Processing**: Pandas, NumPy
+* **Machine Learning**: Scikit-learn
+* **NLP Techniques**: TF-IDF, VADER Sentiment Analysis
+* **Visualization**: Matplotlib
+* **Models**: Logistic Regression, Ridge Regression
+* **Similarity & Analytics**: PMI, Jaccard Similarity, Cosine Similarity
 
-DATASET: https://www.kaggle.com/datasets/ukveteran/drug-review
+
+## Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/Uncovering-the-Hidden-Risk.git
+cd Uncovering-the-Hidden-Risk
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Streamlit application
+streamlit run app.py
+```
+
+Then, visit the local URL displayed in your terminal (typically http://localhost:8501).
+
+---
+
+## Project Objectives
+
+The project aims to:
+
+* Understand patient experiences with different drugs
+* Identify common side effects and evaluate their severities
+* Analyze similarity relationships among drugs
+* Build predictive models for sentiment classification and rating prediction
+* Generate decision-support insights for healthcare professionals, researchers, and pharmaceutical organizations
+
+---
+
+## Dataset
+
+Dataset Source:
+https://www.kaggle.com/datasets/ukveteran/drug-review
+
+---
+
+## Additional Resources
+
+* Scikit-learn Documentation
+* Streamlit API Documentation
+* NLP TF-IDF Feature Extraction Guides
+* Research Papers on Adverse Event Mining
+* Pharmacovigilance and Drug Safety Literature
+
+---
+
+**Department of Computer Science and Engineering**
+Amrita School of Computing, Bengaluru
+Amrita Vishwa Vidyapeetham, India
