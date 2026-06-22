@@ -12,15 +12,6 @@ The goal of the project is to:
 
 The system is deployed through an interactive Streamlit dashboard and includes an integrated ML prediction module for real-time review analysis.
 
-Team Information
-Student Name:
-1.Jyoshitha Pechetti [BL.EN.U4CSE22227]
-2.Padma Sagar K [BL.EN.U4CSE22229]
-3.Dhanush K [BL.EN.U4CSE22231]
-4.Shaik Adnan [BL.EN.U4CSE22053]
-Course: Business Analytics 
-Team no: 16
-
 Key Features
 ⦁	Data cleaning, preprocessing, and review normalization
 ⦁	Token and character length analytics
